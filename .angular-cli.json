@@ -4,7 +4,7 @@
     "name": "personal"
   },
   "apps": [
-    {
+    { 
       "root": "src",
       "outDir": "dist",
       "assets": [

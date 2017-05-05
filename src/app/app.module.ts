@@ -1,22 +1,38 @@
+import { NavComponent } from './shared/nav/nav.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, enableProdMode } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-
+import { ProjectsComponent } from './projects/projects.component';
+import { ClientsComponent } from './clients/clients.component';
+import { ProfileComponent } from './profile/profile.component';
+import { routing} from './app.routing';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-application-insights';
+ 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ProjectsComponent,
+    ClientsComponent,
+    ProfileComponent,
+    NavComponent
+,
+    PrivacyComponent
 ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing,
+     ApplicationInsightsModule.forRoot({
+      instrumentationKey: '81ad00b1-5009-482d-82e6-2664258ca29a'
+    })
   ],
-  providers: [],
+  providers: [AppInsightsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
