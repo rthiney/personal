@@ -1,4 +1,3 @@
-
 import { environment } from './../../environments/environment';
 import { AppInsightsService } from '@markpieszak/ng-application-insights';
 import { Component, OnInit, AfterViewInit } from '@angular/core';
@@ -8,18 +7,13 @@ import * as $ from 'jquery';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit, AfterViewInit {
+export class HomeComponent implements OnInit {
 
-  constructor(private  appInsightsService: AppInsightsService) {
+  constructor(private appInsightsService: AppInsightsService) {
   }
 
   ngOnInit() {
-  }
-ngAfterViewInit() {
-this.appInsightsService.trackPageView();
     $('#bid').removeClass();
     $('#bid').addClass('landing-page');
-
   }
-
 }

@@ -1,6 +1,21 @@
 {
     "name": "raphaelthiney",
-    "version": "0.0.0",
+    "version": "0.0.1",
+    "author": {
+        "email": "raphael.thiney@gmail.com",
+        "name": "Raphael Thiney"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rthiney/RaphaelPersonal.git"
+    },
+    "keywords": [
+        "raphael thiney",
+        "cto",
+        "architect",
+        "director",
+        "wizard"
+    ],
     "license": "MIT",
     "scripts": {
         "ng": "ng",

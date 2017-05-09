@@ -16,7 +16,7 @@ export class ProfileComponent implements OnInit {
   env = environment.envName;
   msgForm: FormGroup;
   // @Input() message: Message;
-  constructor(private fb: FormBuilder, private appInsightsService: AppInsightsService) {
+  constructor(    private fb: FormBuilder, private appInsightsService: AppInsightsService) {
     this.createForm();
 
   }

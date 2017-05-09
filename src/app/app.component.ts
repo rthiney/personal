@@ -11,13 +11,14 @@ import { Component, AfterViewInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements AfterViewInit {
-  title = 'app works!';
+  title = environment.envName;
 
     constructor(private appinsightsService: AppInsightsService) {
 
     }
      ngAfterViewInit() {
-
+    $('#bid').removeClass();
+    $('#bid').addClass('landing-page');
   ///$.getScript('/assets/js/scripts.js');
 
     }
