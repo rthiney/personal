@@ -55,7 +55,7 @@ export class ProfileComponent implements OnInit {
     const content = new helper.Content(
       'text/html', value.msg);
     const mail = new helper.Mail(from_email, subject, to_email, content);
-    const sg = require('sendgrid')(environment.sendgrid.key);
+    const sg = require('sendgrid')(environment.sendgridkey);
 
     const request = sg.emptyRequest({
       method: 'POST',
