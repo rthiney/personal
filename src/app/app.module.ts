@@ -1,3 +1,4 @@
+
 import { environment } from './../environments/environment';
 import { MailFormComponent } from './shared/mail-form/mail-form.component';
 import { NavComponent } from './shared/nav/nav.component';
@@ -13,7 +14,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { routing } from './app.routing';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-application-insights';
-
+import { ToastrModule } from 'ngx-toastr';
+import {   BrowserAnimationsModule   } from '@angular/platform-browser/animations'
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,12 +30,14 @@ import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-a
     MailFormComponent
   ],
   imports: [
+CommonModule,
 
     BrowserModule,
     HttpModule,
-   // FormsModule,
+  BrowserAnimationsModule,
     ReactiveFormsModule,
     routing,
+    ToastrModule.forRoot(),
     ApplicationInsightsModule.forRoot({
       instrumentationKey:   environment.insightKey
     })

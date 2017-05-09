@@ -18,7 +18,8 @@
         "testTsconfig": "tsconfig.spec.json",
         "prefix": "app",
         "styles": [
-            "assets/sass/material-kit.scss"
+            "assets/sass/material-kit.scss",
+            "../node_modules/ngx-toastr/toastr.css"
         ],
         "scripts": [
 
