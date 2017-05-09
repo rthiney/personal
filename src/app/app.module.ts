@@ -2,7 +2,7 @@ import { environment } from './../environments/environment';
 import { MailFormComponent } from './shared/mail-form/mail-form.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, enableProdMode } from '@angular/core';
+import { NgModule, enableProdMode, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import {  ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
@@ -38,6 +38,7 @@ import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-a
     })
   ],
   providers: [AppInsightsService],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

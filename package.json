@@ -1,6 +1,7 @@
 {
     "name": "raphaelthiney",
     "version": "0.0.1",
+    "engine": "node >= 0.4.1",
     "author": {
         "email": "raphael.thiney@gmail.com",
         "name": "Raphael Thiney"

@@ -1,41 +1,61 @@
 webpackJsonp([1,4],{
 
-/***/ 128:
+/***/ 121:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
+var environment = {
+    production: false,
+    envName: 'dev',
+    insightKey: '81ad00b1-5009-482d-82e6-2664258ca29a',
+    sendgridkey: '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'
+};
+//# sourceMappingURL=environment.js.map
+
+/***/ }),
+
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(138);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(144);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
@@ -94,7 +114,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 300:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -140,7 +160,7 @@ var _a;
 
 /***/ }),
 
-/***/ 301:
+/***/ 300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -189,17 +209,15 @@ var _a;
 
 /***/ }),
 
-/***/ 302:
+/***/ 301:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_jquery__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_jquery__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfileComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -213,79 +231,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
 var ProfileComponent = (function () {
     // @Input() message: Message;
-    function ProfileComponent(fb, appInsightsService) {
-        this.fb = fb;
+    function ProfileComponent(appInsightsService) {
         this.appInsightsService = appInsightsService;
-        this.env = __WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].envName;
-        this.createForm();
     }
-    ProfileComponent.prototype.createForm = function () {
-        this.msgForm = this.fb.group({
-            name: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* Validators */].required],
-            email: ['', [__WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* Validators */].email]],
-            msg: ['', [__WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* Validators */].minLength(10)]]
-        });
-    };
     ProfileComponent.prototype.ngOnInit = function () {
-        __WEBPACK_IMPORTED_MODULE_4_jquery__('#bid').removeClass();
-        __WEBPACK_IMPORTED_MODULE_4_jquery__('#bid').addClass('profile-page');
-    };
-    ProfileComponent.prototype.ngOnChanges = function () {
-        // this.msgForm.reset({
-        //   name: this.message.name,
-        //   email: this.message.email,
-        //   msg: this.message.msg
-        // });
-    };
-    ProfileComponent.prototype.onSubmit = function (_a) {
-        var value = _a.value, valid = _a.valid;
-        this.appInsightsService.trackEvent('Email Sent');
-        var helper = __webpack_require__(127).mail;
-        var from_email = new helper.Email(value.email);
-        var to_email = new helper.Email('raphael.thiney@gmail.com');
-        var subject = value.name + ' sent email from Personal Website!!!!';
-        var content = new helper.Content('text/html', value.msg);
-        var mail = new helper.Mail(from_email, subject, to_email, content);
-        var sg = __webpack_require__(127)(__WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].sendgridkey);
-        var request = sg.emptyRequest({
-            method: 'POST',
-            mode: 'no-cors',
-            path: '/v3/mail/send',
-            body: mail.toJSON()
-        });
-        sg.API(request, function (error, response) {
-            if (error) {
-                console.log('Error response received');
-            }
-            alert(response.body);
-            console.log(response.statusCode);
-            console.log(response.body);
-            console.log(response.headers);
-        });
-        // this.heroService.updateHero(this.hero).subscribe(/* error handling */);
-        this.ngOnChanges();
+        __WEBPACK_IMPORTED_MODULE_2_jquery__('#bid').removeClass();
+        __WEBPACK_IMPORTED_MODULE_2_jquery__('#bid').addClass('profile-page');
     };
     return ProfileComponent;
 }());
 ProfileComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-profile',
         template: __webpack_require__(411),
         styles: [__webpack_require__(370)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__angular_forms__["c" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_forms__["c" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights__["AppInsightsService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights__["AppInsightsService"]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__["AppInsightsService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__["AppInsightsService"]) === "function" && _a || Object])
 ], ProfileComponent);
 
-var _a, _b;
+var _a;
 //# sourceMappingURL=profile.component.js.map
 
 /***/ }),
 
-/***/ 303:
+/***/ 302:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -350,11 +321,11 @@ webpackEmptyContext.id = 331;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_dynamic__ = __webpack_require__(336);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_app_module__ = __webpack_require__(338);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__environments_environment__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__environments_environment__ = __webpack_require__(121);
 
 
 
@@ -372,12 +343,13 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_dyna
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_jquery__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -391,17 +363,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 // declare var jQuery:any;
 
 var AppComponent = (function () {
-    function AppComponent(appinsightsService) {
+    function AppComponent(appinsightsService, titleService) {
         this.appinsightsService = appinsightsService;
+        this.titleService = titleService;
         this.title = __WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].envName;
     }
     AppComponent.prototype.ngAfterViewInit = function () {
-        __WEBPACK_IMPORTED_MODULE_3_jquery__('#bid').removeClass();
-        __WEBPACK_IMPORTED_MODULE_3_jquery__('#bid').addClass('landing-page');
+        __WEBPACK_IMPORTED_MODULE_4_jquery__('#bid').removeClass();
+        __WEBPACK_IMPORTED_MODULE_4_jquery__('#bid').addClass('landing-page');
         ///$.getScript('/assets/js/scripts.js');
+    };
+    AppComponent.prototype.setTitle = function (newTitle) {
+        this.titleService.setTitle(newTitle);
     };
     return AppComponent;
 }());
@@ -411,10 +388,10 @@ AppComponent = __decorate([
         template: __webpack_require__(407),
         styles: [__webpack_require__(367)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__["AppInsightsService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__["AppInsightsService"]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__["AppInsightsService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__markpieszak_ng_application_insights__["AppInsightsService"]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* Title */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* Title */]) === "function" && _b || Object])
 ], AppComponent);
 
-var _a;
+var _a, _b;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
@@ -423,18 +400,18 @@ var _a;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_mail_form_mail_form_component__ = __webpack_require__(341);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_nav_nav_component__ = __webpack_require__(342);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(335);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(337);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__home_home_component__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__projects_projects_component__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__clients_clients_component__ = __webpack_require__(300);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__profile_profile_component__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__home_home_component__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__projects_projects_component__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__clients_clients_component__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__profile_profile_component__ = __webpack_require__(301);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_routing__ = __webpack_require__(339);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__privacy_privacy_component__ = __webpack_require__(340);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__markpieszak_ng_application_insights__ = __webpack_require__(55);
@@ -489,6 +466,7 @@ AppModule = __decorate([
             })
         ],
         providers: [__WEBPACK_IMPORTED_MODULE_14__markpieszak_ng_application_insights__["AppInsightsService"]],
+        schemas: [__WEBPACK_IMPORTED_MODULE_4__angular_core__["CUSTOM_ELEMENTS_SCHEMA"]],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
@@ -501,11 +479,11 @@ AppModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__home_home_component__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__profile_profile_component__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__projects_projects_component__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clients_clients_component__ = __webpack_require__(300);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__home_home_component__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__profile_profile_component__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__projects_projects_component__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clients_clients_component__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(297);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -576,11 +554,11 @@ var _a;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__markpieszak_ng_application_insights__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_jquery__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MailFormComponent; });
@@ -619,13 +597,13 @@ var MailFormComponent = (function () {
     MailFormComponent.prototype.onSubmit = function (_a) {
         var value = _a.value, valid = _a.valid;
         console.log(value, __WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].sendgridkey);
-        var helper = __webpack_require__(127).mail;
+        var helper = __webpack_require__(327).mail;
         var from_email = new helper.Email(value.email);
         var to_email = new helper.Email('raphael.thiney@gmail.com');
         var subject = value.name + ' sent email from Personal Website!!!!';
         var content = new helper.Content('text/html', value.msg);
         var mail = new helper.Mail(from_email, subject, to_email, content);
-        var sg = __webpack_require__(127)(__WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].sendgridkey);
+        var sg = __webpack_require__(327)(__WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].sendgridkey);
         var request = sg.emptyRequest({
             method: 'POST',
             mode: 'no-cors',
@@ -856,7 +834,7 @@ module.exports = module.exports.toString();
 /***/ 407:
 /***/ (function(module, exports) {
 
-module.exports = "<router-outlet>\r\n</router-outlet>\r\n\r\n\r\n<footer class=\"footer\">\r\n    <div class=\"container\">\r\n        <nav class=\"pull-left\">\r\n            <ul>\r\n                <li>\r\n                    <a href=\"https://docs.google.com/document/d/1cYQlYo4R4sDlDcbZAyjHI8ovnXEX-eSSquUSrELAuN4/edit?usp=sharing\">\r\n\t\t\t\t\t\t\tRaphael Thiney\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://www.beyond.com/RaphaelThiney?preview=1\">\r\n\t\t\t\tCurriculum Vitae\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n\r\n                <li>\r\n                    <a href=\"/blog\">\r\n\t\t\t\t\t\t   Blog\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"/policy\">\r\n\t\t\t\t\t\t\tPrivacy Policy\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n            </ul>\r\n        </nav>\r\n        <div class=\"copyright pull-right\">\r\n            &copy; 2017, made by Raphael Thiney {{title}}\r\n        </div>\r\n    </div>\r\n</footer>"
+module.exports = "<router-outlet>\r\n</router-outlet>\r\n\r\n\r\n<footer class=\"footer\">\r\n    <div class=\"container\">\r\n        <nav class=\"pull-left\">\r\n            <ul>\r\n                <li>\r\n                    <a href=\"https://docs.google.com/document/d/1cYQlYo4R4sDlDcbZAyjHI8ovnXEX-eSSquUSrELAuN4/edit?usp=sharing\">\r\n\t\t\t\t\t\t\tRaphael Thiney\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://www.beyond.com/RaphaelThiney\">\r\n\t\t\t\tCurriculum Vitae\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n\r\n                <li>\r\n                    <a href=\"/blog\">\r\n\t\t\t\t\t\t   Blog\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"/policy\">\r\n\t\t\t\t\t\t\tPrivacy Policy\r\n\t\t\t\t\t\t</a>\r\n                </li>\r\n            </ul>\r\n        </nav>\r\n        <div class=\"copyright pull-right\">\r\n            &copy; 2017, made by Raphael Thiney {{title}}\r\n        </div>\r\n    </div>\r\n</footer>"
 
 /***/ }),
 
@@ -870,7 +848,7 @@ module.exports = "<app-nav></app-nav>\n<div class=\"wrapper\">\n    <div class=\
 /***/ 409:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-transparent navbar-absolute\">\r\n    <div class=\"container\">\r\n        <!-- Brand and toggle get grouped for better mobile display -->\r\n        <div class=\"navbar-header\">\r\n            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navigation-example\">\r\n            \t\t<span class=\"sr-only\">Toggle navigation</span>\r\n\t\t            <span class=\"icon-bar\"></span>\r\n\t\t            <span class=\"icon-bar\"></span>\r\n\t\t            <span class=\"icon-bar\"></span>\r\n        \t\t</button>\r\n            <a href=\"http://raphael.myds.me\">\r\n                <div class=\"logo-container\">\r\n                    <div class=\"logo\">\r\n                        <img src=\"assets/img/RaphPhotoFaceSmall.jpg\" class=\"img-circle  img-responsive img-raised\" alt=\"    Raphaël  Thiney \" rel=\"tooltip\" title=\"<b>Site</b> was Designed & Coded by <b>    Raphaël  Thiney </b>\" data-placement=\"bottom\" data-html=\"true\">\r\n\r\n                    </div>\r\n                    <div class=\"brand\">\r\n\r\n                    </div>\r\n                </div>\r\n            </a>\r\n        </div>\r\n\r\n        <div class=\"collapse navbar-collapse\" id=\"navigation-example\">\r\n            <ul class=\"nav navbar-nav navbar-right\">\r\n                <li>\r\n                    <a [routerLink]=\" ['/'] \">Home</a>\r\n                </li>\r\n                <li>\r\n                    <a href='/profile'>Profile</a>\r\n                </li>\r\n                <li>\r\n                    <a [routerLink]=\" ['/clients'] \">Clients</a>\r\n                </li>\r\n                <li>\r\n                    <a [routerLink]=\" ['/projects'] \">Projects</a>\r\n                </li>\r\n\r\n                <li>\r\n                    <a href=\"https://twitter.com/RaphaelThiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-twitter\"></i>\r\n                    </a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://www.linkedin.com/in/raphaelthiney/\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-linkedin\"></i>\r\n                    </a>\r\n                </li>\r\n\r\n                <li>\r\n                    <a href=\"https://www.facebook.com/raphael.thiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-facebook-square\"></i>\r\n                    </a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://github.com/rthiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-github\"></i>\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n<div class=\"wrapper\">\r\n    <div class=\"header header-filter\" style=\"background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-md-6\">\r\n                    <h1 class=\"title\">Seasoned. Professional.</h1>\r\n                    <h4>Get it done <strong>FAST</strong>, Get it done<strong> RIGHT</strong>. Get it done <strong>WELL</strong>.\r\n                    </h4>\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"main main-raised\">\r\n        <div class=\"container\">\r\n            <div class=\"section text-center section-landing\">\r\n\r\n\r\n                <div class=\"features\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <div class=\"info\">\r\n                                <div class=\"icon icon-primary\">\r\n                                    <i class=\"fa fa-bolt\" aria-hidden=\"true\"></i>\r\n                                </div>\r\n                                <h4 class=\"info-title\">Speed Development</h4>\r\n                                <p>Often, stakeholders need to have something in their hands before their ideas start to flow. I try to quickly create a Proof Of Concept, and gather that input early on. That feedback lets me quickly respond to user feedback,\r\n                                    rather than wait until delivery; better than any whiteboard or PowerPoint!</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-md-4\">\r\n                            <div class=\"info\">\r\n                                <div class=\"icon icon-success\">\r\n                                    <i class=\"fa fa-cubes\" aria-hidden=\"true\"></i>\r\n                                </div>\r\n                                <h4 class=\"info-title\">Master Integrator</h4>\r\n                                <p>Thoughout my carreer I have been integrating disparate systems. From legacy to new and disconnected. While this practice is becoming easier with new tools like micro-services, webjobs and workflow systems, I bring the experience\r\n                                    and business acumen to bring everyone together and execute.</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-md-4\">\r\n                            <div class=\"info\">\r\n                                <div class=\"icon icon-danger\">\r\n                                    <i class=\"fa fa-users\" aria-hidden=\"true\"></i>\r\n                                </div>\r\n                                <h4 class=\"info-title\">Easy to Work With</h4>\r\n                                <p>I'm easy to get along with. I'm a people person with a cunning business sense. I have started 3 companies, and help several others start their own along the way. I speak tech, finance, healthcare. Also French and Spanish!!</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-md-8 col-md-offset-2\">\r\n                        <h2 class=\"title\">Let's talk experience</h2>\r\n\r\n                        <h5 class=\"description\">\r\n                            Seasoned hands-on CTO/Architect/Project Manager/Developer with full life-cycle project experience in production .NET deployments. A buttoned-up transformational technology leader with 20+ years of finance, and progressive healthcare and IT experience.\r\n                            Strategic, goal-driven leader applying innovative technologies and processes to solve complex problems enhancing time to market and operational inefficiencies. Analytical and emotionally intelligent team lead adept at building\r\n                            and sustaining strong business partnerships while integrating people, processes and technologies. Solid experience in developing and integrating complex web based solutions in a high-volume, consumer-facing transactional architecture\r\n                            on a large scale. Entrepreneurial self-starter and persuasive communicator exhibiting both technical and business acumen. Seasoned hands-on CTO/Architect/Project Manager/Developer with full life-cycle project experience in\r\n                            production .NET deployments. A buttoned-up transformational technology leader with 20+ years of finance, and progressive healthcare and IT experience. Strategic, goal-driven leader applying innovative technologies and processes\r\n                            to solve complex problems enhancing time to market and operational inefficiencies. Analytical and emotionally intelligent team lead adept at building and sustaining strong business partnerships while integrating people, processes\r\n                            and technologies. Solid experience in developing and integrating complex web based solutions in a high-volume, consumer-facing transactional architecture on a large scale. Entrepreneurial self-starter and persuasive communicator\r\n                            exhibiting both technical and business acumen.</h5>\r\n                        <h5 class=\"description\"> I’ve been in the IT industry my entire career. I have over 25 years experience, spanning multiple domains including entertainment, banking, commercial mortgages, hedge-funds, and healthcare. I’m passionate about using technology\r\n                            to solve hard business problems. I love making systems work together by either native integration, or custom, elegant solutions.</h5>\r\n                        <h5 class=\"description\"> Technology is a tool that needs to be wielded. Technology is not a push-button, “solve all of my issues” with one application; rather it takes a deep understanding of your users, their problems, and their goals. From that you begin\r\n                            to develop a picture of what technology tool solves their problem. Moreover, having a deep understanding of future technology trends and expectations, building a solution that doesn’t pigeon-hole your client, but prepares them\r\n                            for the future.</h5>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n\r\n            <app-mail-form></app-mail-form>\r\n        </div>\r\n\r\n    </div>"
+module.exports = "<nav class=\"navbar navbar-transparent navbar-absolute\">\r\n    <div class=\"container\">\r\n        <!-- Brand and toggle get grouped for better mobile display -->\r\n        <div class=\"navbar-header\">\r\n            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navigation-example\">\r\n            \t\t<span class=\"sr-only\">Toggle navigation</span>\r\n\t\t            <span class=\"icon-bar\"></span>\r\n\t\t            <span class=\"icon-bar\"></span>\r\n\t\t            <span class=\"icon-bar\"></span>\r\n        \t\t</button>\r\n            <a href=\"http://raphael.myds.me\">\r\n                <div class=\"logo-container\">\r\n                    <div class=\"logo\">\r\n                        <img src=\"assets/img/RaphPhotoFaceSmall.jpg\" class=\"img-circle  img-responsive img-raised\" alt=\"    Raphaël  Thiney \" rel=\"tooltip\" title=\"<b>Site</b> was Designed & Coded by <b>    Raphaël  Thiney </b>\" data-placement=\"bottom\" data-html=\"true\">\r\n\r\n                    </div>\r\n                    <div class=\"brand\">\r\n\r\n                    </div>\r\n                </div>\r\n            </a>\r\n        </div>\r\n\r\n        <div class=\"collapse navbar-collapse\" id=\"navigation-example\">\r\n            <ul class=\"nav navbar-nav navbar-right\">\r\n                <li>\r\n                    <a [routerLink]=\" ['/'] \">Home</a>\r\n                </li>\r\n                <li>\r\n                    <a [routerLink]=\"['/profile']\">Profile</a>\r\n                </li>\r\n                <li>\r\n\r\n                    <a [routerLink]=\"['/clients']\">Clients</a>\r\n                </li>\r\n                <li>\r\n                    <a [routerLink]=\"['/projects']\">Projects      <i class=\"fa fa-gears\"></i></a>\r\n                </li>\r\n\r\n                <li>\r\n                    <a href=\"https://twitter.com/RaphaelThiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-twitter\"></i>\r\n                    </a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://www.linkedin.com/in/raphaelthiney/\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-linkedin\"></i>\r\n                    </a>\r\n                </li>\r\n\r\n                <li>\r\n                    <a href=\"https://www.facebook.com/raphael.thiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-facebook-square\"></i>\r\n                    </a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://github.com/rthiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\r\n                        <i class=\"fa fa-github\"></i>\r\n                    </a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>\r\n\r\n\r\n<div class=\"wrapper\">\r\n    <div class=\"header header-filter\" style=\"background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-md-6\">\r\n                    <h1 class=\"title\">Seasoned. Professional.</h1>\r\n                    <h4>Get it done <strong>FAST</strong>, Get it done<strong> RIGHT</strong>. Get it done <strong>WELL</strong>.\r\n                    </h4>\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"main main-raised\">\r\n        <div class=\"container\">\r\n            <div class=\"section text-center section-landing\">\r\n\r\n\r\n                <div class=\"features\">\r\n                    <div class=\"row\">\r\n                        <div class=\"col-md-4\">\r\n                            <div class=\"info\">\r\n                                <div class=\"icon icon-primary\">\r\n                                    <i class=\"fa fa-bolt\" aria-hidden=\"true\"></i>\r\n                                </div>\r\n                                <h4 class=\"info-title\">Speed Development</h4>\r\n                                <p>Often, stakeholders need to have something in their hands before their ideas start to flow. I try to quickly create a Proof Of Concept, and gather that input early on. That feedback lets me quickly respond to user feedback,\r\n                                    rather than wait until delivery; better than any whiteboard or PowerPoint!</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-md-4\">\r\n                            <div class=\"info\">\r\n                                <div class=\"icon icon-success\">\r\n                                    <i class=\"fa fa-cubes\" aria-hidden=\"true\"></i>\r\n                                </div>\r\n                                <h4 class=\"info-title\">Master Integrator</h4>\r\n                                <p>Thoughout my carreer I have been integrating disparate systems. From legacy to new and disconnected. While this practice is becoming easier with new tools like micro-services, webjobs and workflow systems, I bring the experience\r\n                                    and business acumen to bring everyone together and execute.</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"col-md-4\">\r\n                            <div class=\"info\">\r\n                                <div class=\"icon icon-danger\">\r\n                                    <i class=\"fa fa-users\" aria-hidden=\"true\"></i>\r\n                                </div>\r\n                                <h4 class=\"info-title\">Easy to Work With</h4>\r\n                                <p>I'm easy to get along with. I'm a people person with a cunning business sense. I have started 3 companies, and help several others start their own along the way. I speak tech, finance, healthcare. Also French and Spanish!!</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"row\">\r\n                    <div class=\"col-md-8 col-md-offset-2\">\r\n                        <h2 class=\"title\">Let's talk experience</h2>\r\n\r\n                        <h5 class=\"description\">\r\n                            Seasoned hands-on CTO/Architect/Project Manager/Developer with full life-cycle project experience in production .NET deployments. A buttoned-up transformational technology leader with 20+ years of finance, and progressive healthcare and IT experience.\r\n                            Strategic, goal-driven leader applying innovative technologies and processes to solve complex problems enhancing time to market and operational inefficiencies. Analytical and emotionally intelligent team lead adept at building\r\n                            and sustaining strong business partnerships while integrating people, processes and technologies. Solid experience in developing and integrating complex web based solutions in a high-volume, consumer-facing transactional architecture\r\n                            on a large scale. Entrepreneurial self-starter and persuasive communicator exhibiting both technical and business acumen. Seasoned hands-on CTO/Architect/Project Manager/Developer with full life-cycle project experience in\r\n                            production .NET deployments. A buttoned-up transformational technology leader with 20+ years of finance, and progressive healthcare and IT experience. Strategic, goal-driven leader applying innovative technologies and processes\r\n                            to solve complex problems enhancing time to market and operational inefficiencies. Analytical and emotionally intelligent team lead adept at building and sustaining strong business partnerships while integrating people, processes\r\n                            and technologies. Solid experience in developing and integrating complex web based solutions in a high-volume, consumer-facing transactional architecture on a large scale. Entrepreneurial self-starter and persuasive communicator\r\n                            exhibiting both technical and business acumen.</h5>\r\n                        <h5 class=\"description\"> I’ve been in the IT industry my entire career. I have over 25 years experience, spanning multiple domains including entertainment, banking, commercial mortgages, hedge-funds, and healthcare. I’m passionate about using technology\r\n                            to solve hard business problems. I love making systems work together by either native integration, or custom, elegant solutions.</h5>\r\n                        <h5 class=\"description\"> Technology is a tool that needs to be wielded. Technology is not a push-button, “solve all of my issues” with one application; rather it takes a deep understanding of your users, their problems, and their goals. From that you begin\r\n                            to develop a picture of what technology tool solves their problem. Moreover, having a deep understanding of future technology trends and expectations, building a solution that doesn’t pigeon-hole your client, but prepares them\r\n                            for the future.</h5>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n\r\n            <app-mail-form></app-mail-form>\r\n        </div>\r\n\r\n    </div>"
 
 /***/ }),
 
@@ -905,7 +883,7 @@ module.exports = "<div class=\"section landing-section\">\n    <div class=\"row\
 /***/ 414:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll\">\n    <div class=\"container\">\n        <!-- Brand and toggle get grouped for better mobile display -->\n        <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navigation-example\">\n            \t\t<span class=\"sr-only\">Toggle navigation</span>\n\t\t            <span class=\"icon-bar\"></span>\n\t\t            <span class=\"icon-bar\"></span>\n\t\t            <span class=\"icon-bar\"></span>\n        \t\t</button>\n            <a href=\"http://raphael.myds.me\">\n                <h3 style=\"color:white\">Raphaël Thiney\n                </h3>\n            </a>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navigation-example\">\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a [routerLink]=\" ['/'] \">Home</a>\n                </li>\n                <li>\n                    <a [routerLink]=\" ['/profile'] \">Profile</a>\n                </li>\n                <li>\n                    <a [routerLink]=\" ['/clients'] \">Clients</a>\n                </li>\n                <li>\n                    <a [routerLink]=\" ['/projects'] \">Projects</a>\n                </li>\n\n\n                <li>\n                    <a href=\"https://twitter.com/RaphaelThiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-twitter\"></i>\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://www.linkedin.com/in/raphaelthiney/\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-linkedin\"></i>\n                    </a>\n                </li>\n\n                <li>\n                    <a href=\"https://www.facebook.com/raphael.thiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-facebook-square\"></i>\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://github.com/rthiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-github\"></i>\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll\">\n    <div class=\"container\">\n        <!-- Brand and toggle get grouped for better mobile display -->\n        <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navigation-example\">\n            \t\t<span class=\"sr-only\">Toggle navigation</span>\n\t\t            <span class=\"icon-bar\"></span>\n\t\t            <span class=\"icon-bar\"></span>\n\t\t            <span class=\"icon-bar\"></span>\n        \t\t</button>\n            <a href=\"https://www.beyond.com/RaphaelThiney\">\n                <h3 style=\"color:white\">Raphaël Thiney\n                </h3>\n            </a>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navigation-example\">\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a [routerLink]=\" ['/'] \">Home</a>\n                </li>\n                <li>\n                    <a [routerLink]=\"['/profile']\">Profile</a>\n                </li>\n                <li>\n                    <a [routerLink]=\"['/clients']\">Clients</a>\n                </li>\n                <li>\n                    <a [routerLink]=\"['/projects']\">Projects</a>\n                </li>\n\n\n                <li>\n                    <a href=\"https://twitter.com/RaphaelThiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-twitter\"></i>\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://www.linkedin.com/in/raphaelthiney/\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-linkedin\"></i>\n                    </a>\n                </li>\n\n                <li>\n                    <a href=\"https://www.facebook.com/raphael.thiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-facebook-square\"></i>\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://github.com/rthiney\" target=\"_blank\" class=\"btn btn-simple btn-white btn-just-icon\">\n                        <i class=\"fa fa-github\"></i>\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
 
 /***/ }),
 
@@ -921,26 +899,6 @@ module.exports = "<nav class=\"navbar navbar-transparent navbar-fixed-top navbar
 
 module.exports = __webpack_require__(332);
 
-
-/***/ }),
-
-/***/ 78:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
-var environment = {
-    production: false,
-    envName: 'dev',
-    insightKey: '81ad00b1-5009-482d-82e6-2664258ca29a',
-    sendgridkey: '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'
-};
-//# sourceMappingURL=environment.js.map
 
 /***/ })
 

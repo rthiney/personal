@@ -10,7 +10,7 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 
-/***/ 130:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -160,7 +160,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 283:
+/***/ 281:
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -679,8 +679,8 @@ module.exports = __webpack_require__(333);
 
 
 
-var base64 = __webpack_require__(130)
-var ieee754 = __webpack_require__(283)
+var base64 = __webpack_require__(128)
+var ieee754 = __webpack_require__(281)
 var isArray = __webpack_require__(123)
 
 exports.Buffer = Buffer

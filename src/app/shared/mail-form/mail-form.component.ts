@@ -12,6 +12,7 @@ import * as sendgrid from 'sendgrid';
 import * as $ from 'jquery';
 
  @Component({
+       moduleId: module.id,
   selector: 'app-mail-form',
   templateUrl: './mail-form.component.html',
   styleUrls: ['./mail-form.component.css']
