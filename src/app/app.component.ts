@@ -1,7 +1,8 @@
 import { environment  } from './../environments/environment';
 import { AppInsightsService } from '@markpieszak/ng-application-insights';
 import { Component, AfterViewInit } from '@angular/core';
- 
+ //declare var jQuery:any;
+ import * as $ from 'jquery';
 
 @Component({
     moduleId: module.id,
@@ -17,7 +18,7 @@ export class AppComponent implements AfterViewInit {
     }
      ngAfterViewInit() {
 
-  // $.getScript('/assets/js/scripts.js');
+  ///$.getScript('/assets/js/scripts.js');
 
     }
 }

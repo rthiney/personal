@@ -1,7 +1,7 @@
 import { NavComponent } from './shared/nav/nav.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, enableProdMode } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule , ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -11,7 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { routing} from './app.routing';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-application-insights';
- 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +25,7 @@ import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-a
 ],
   imports: [
     BrowserModule,
-    FormsModule,
+  ReactiveFormsModule,
     HttpModule,
     routing,
      ApplicationInsightsModule.forRoot({
