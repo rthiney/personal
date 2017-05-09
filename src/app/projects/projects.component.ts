@@ -14,7 +14,7 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
             $('#bid').removeClass();
     $('#bid').addClass('profile-page');
-          $.getScript('/assets/js/scripts.js');
+
   }
 
 }

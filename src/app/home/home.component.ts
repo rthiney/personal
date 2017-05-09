@@ -7,13 +7,17 @@ import * as $ from 'jquery';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, AfterViewInit {
 
   constructor(private appInsightsService: AppInsightsService) {
   }
 
   ngOnInit() {
-    $('#bid').removeClass();
-    $('#bid').addClass('landing-page');
+ //   $.getScript('/assets/js/scripts.js');
   }
+ngAfterViewInit()
+{
+    $('#bid').attr('class','landing-page');
+   console.log('ngAfterViewInit', $('#bid').attr('class'));
+}
 }

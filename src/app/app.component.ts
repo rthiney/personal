@@ -1,7 +1,7 @@
 import { environment  } from './../environments/environment';
 import { AppInsightsService } from '@markpieszak/ng-application-insights';
 import { Component, AfterViewInit } from '@angular/core';
- //declare var jQuery:any;
+ // declare var jQuery:any;
  import * as $ from 'jquery';
 
 @Component({

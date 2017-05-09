@@ -3,7 +3,7 @@ import { MailFormComponent } from './shared/mail-form/mail-form.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, enableProdMode } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {  ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -27,9 +27,10 @@ import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-a
     MailFormComponent
   ],
   imports: [
+
     BrowserModule,
     HttpModule,
-    FormsModule,
+   // FormsModule,
     ReactiveFormsModule,
     routing,
     ApplicationInsightsModule.forRoot({

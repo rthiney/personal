@@ -1,4 +1,5 @@
-import { Message } from './../models/message';
+import { environment } from './../../../environments/environment';
+
 
 
 
@@ -6,7 +7,7 @@ import { Message } from './../models/message';
 import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 import { AppInsightsService } from '@markpieszak/ng-application-insights';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-
+import { Message } from './../models/message';
 import * as sendgrid from 'sendgrid';
 import * as $ from 'jquery';
 
@@ -16,8 +17,9 @@ import * as $ from 'jquery';
   styleUrls: ['./mail-form.component.css']
 })
 export class MailFormComponent implements OnInit {
-  env = process.env.envName;
+
   msgForm: FormGroup;
+   message: Message;
   // @Input() message: Message;
   constructor(    private fb: FormBuilder, private appInsightsService: AppInsightsService) {
     this.createForm();
@@ -38,19 +40,13 @@ export class MailFormComponent implements OnInit {
     $('#bid').addClass('profile-page');
   }
 
-  ngOnChanges() {
-    // this.msgForm.reset({
-    //   name: this.message.name,
-    //   email: this.message.email,
-    //   msg: this.message.msg
-    // });
-  }
+
 
 
 
   onSubmit({ value, valid }: { value: Message, valid: boolean }) {
 
-    this.appInsightsService.trackEvent('Email Sent');
+console.log(value,environment.sendgridkey);
     const helper = require ('sendgrid').mail;
     const from_email = new helper.Email(value.email);
     const to_email = new helper.Email('raphael.thiney@gmail.com');
@@ -58,7 +54,7 @@ export class MailFormComponent implements OnInit {
     const content = new helper.Content(
       'text/html', value.msg);
     const mail = new helper.Mail(from_email, subject, to_email, content);
-    const sg = require('sendgrid')(process.env.sendgridkey);
+    const sg = require('sendgrid')(environment.sendgridkey);
 
     const request = sg.emptyRequest({
       method: 'POST',
@@ -73,13 +69,14 @@ export class MailFormComponent implements OnInit {
       if (error) {
         console.log('Error response received');
       }
-      alert(response.body);
       console.log(response.statusCode);
       console.log(response.body);
       console.log(response.headers);
     });
 
     // this.heroService.updateHero(this.hero).subscribe(/* error handling */);
-    this.ngOnChanges();
+
+
+        this.msgForm.reset();
   }
 }
