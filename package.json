@@ -1,7 +1,7 @@
 {
   "name": "raphaelthiney",
   "version": "0.0.1",
-  "engine": "node >= 0.4.1",
+  "engine": "node >= 6.10.0",
   "author": {
     "email": "raphael.thiney@gmail.com",
     "name": "Raphael Thiney"
@@ -65,6 +65,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.0",
+    "raw-loader": "^0.5.1",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"

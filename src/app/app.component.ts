@@ -1,12 +1,13 @@
-import { environment  } from './../environments/environment';
+
+import { environment } from './../environments/environment';
 import { AppInsightsService } from '@markpieszak/ng-application-insights';
 import { Component, AfterViewInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
- // declare var jQuery:any;
- import * as $ from 'jquery';
+// declare var jQuery:any;
+import * as $ from 'jquery';
 
 @Component({
-    moduleId: module.id,
+  moduleId: module.id,
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
@@ -14,17 +15,16 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent implements AfterViewInit {
   title = environment.envName;
 
-    constructor(private appinsightsService: AppInsightsService, private titleService: Title ) {
+  constructor(private appinsightsService: AppInsightsService, private titleService: Title) {
 
-    }
-     ngAfterViewInit() {
+  }
+  ngAfterViewInit() {
     $('#bid').removeClass();
     $('#bid').addClass('landing-page');
-  ///$.getScript('/assets/js/scripts.js');
+    ///$.getScript('/assets/js/scripts.js');
 
-    }
-      public setTitle(newTitle: string)
-  {
+  }
+  public setTitle(newTitle: string) {
     this.titleService.setTitle(newTitle);
   }
 }
