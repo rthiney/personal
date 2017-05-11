@@ -7,11 +7,11 @@
     "author": {
         "email": "raphael.thiney@gmail.com",
         "name": "Raphaël Thiney",
-        "url": "https://rthiney.github.io"
+        "url": "https://rthiney.github.io/personal"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/rthiney/rthiney.github.io.git"
+        "url": "https://github.com/rthiney/personal.git"
     },
     "keywords": [
         "Raphaël Thiney",
