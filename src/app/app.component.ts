@@ -21,7 +21,7 @@ export class AppComponent implements AfterViewInit {
   ngAfterViewInit() {
     $('#bid').removeClass();
     $('#bid').addClass('landing-page');
-    ///$.getScript('/assets/js/scripts.js');
+    $.getScript('/assets/js/scripts.js');
 
   }
   public setTitle(newTitle: string) {

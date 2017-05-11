@@ -16,11 +16,14 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit() {
- //   $.getScript('/assets/js/scripts.js');
+ $.getScript('/assets/js/scripts.js');
+
+
   }
 ngAfterViewInit()
 {
     $('#bid').attr('class','landing-page');
-   console.log('ngAfterViewInit', $('#bid').attr('class'));
+     console.log('ngAfterViewInit', $('#bid').attr('class'));
+      $.getScript('/assets/js/scripts.js');
 }
 }

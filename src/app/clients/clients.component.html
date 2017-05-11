@@ -1,43 +1,48 @@
 <app-nav></app-nav>
 <div class="wrapper">
-    <div class="header header-filter" style="background-image: url('../../assets/img//bg4.jpeg');"></div>
+    <div class="header header-filter" style="background-image: url('../../assets/img/bg4.jpeg');"></div>
 
     <div class="main main-raised">
         <div class="container">
-            <div class="section text-center section-landing">
-                <div class="features">
-
-                    <div class="row">
-
-                        <div class="col-md-4" *ngFor="let co of cos.slice(0,3); ">
-                            <div class="info">
-                                <img src="../assets/img/logo/{{co.logo}}" alt="{{co.name}}" class="img-raised ">
-                                <h4 class="info-title">{{co.name}}</h4>
-                                <p>{{co.description}}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                        <div class="col-md-4" *ngFor="let co of cos.slice(4,7); ">
-                            <div class="info">
-                                <img src="../assets/img/logo/{{co.logo}}" alt="{{co.name}}" class="img-raised">
-                                <h4 class="info-title">{{co.name}}</h4>
-                                <p>{{co.description}}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                        <div class="col-md-4" *ngFor="let co of cos.slice(7,8); ">
-                            <div class="info">
-                                <img src="../assets/img/logo/{{co.logo}}" alt="{{co.name}}" class="img-raised">
-                                <h4 class="info-title">{{co.name}}</h4>
-                                <p>{{co.description}}</p>
-                            </div>
-                        </div>
+            <h1 class="title">
+                Clients
+                <br>
+                <small>Here are the clients that I've worked with.</small>
+            </h1>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" *ngFor="let co of cos.slice(0,3); ">
+                    <div class="info">
+                        <img src="../assets/img/logo/{{co.logo}}" alt="{{co.name}}" class="img-raised ">
+                        <h4 class="info-title">{{co.name}}</h4>
+                        <p>{{co.description}}</p>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" *ngFor="let co of cos.slice(4,7); ">
+                    <div class="info">
+                        <img src="../assets/img/logo/{{co.logo}}" alt="{{co.name}}" class="img-raised">
+                        <h4 class="info-title">{{co.name}}</h4>
+                        <p>{{co.description}}</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6" *ngFor="let co of cos.slice(7,8); ">
+                    <div class="info">
+                        <img src="../assets/img/logo/{{co.logo}}" alt="{{co.name}}" class="img-raised">
+                        <h4 class="info-title">{{co.name}}</h4>
+                        <p>{{co.description}}</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
         </div>
     </div>

@@ -1,6 +1,28 @@
 {
+    "codestats.apikey": "SFMyNTY.Y25Sb2FXNWxlUT09IyNOemc1.GnTTGlWJWgoMEwXXk-q8MLgPSEE0KVjc4RCcw_m4vfw",
+
     "vsicons.presets.angular": true,
     "angulardoc.repoId": "c6a8e591-d1f6-4fdd-b547-8b82e2acbc73",
     "angulardoc.lastSync": 0,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "sync.gist": "ccd582fbaac28fb74469eea56d7a0b92",
+    "sync.lastUpload": "2017-04-27T15:55:15.741Z",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.lastDownload": "",
+    "sync.version": 262,
+    "sync.showSummary": true,
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "mssql.connections": [{
+        "server": "surgipal.database.windows.net",
+        "database": "surgipalDBserver",
+        "authenticationType": "SqlLogin",
+        "user": "surgipal",
+        "password": "",
+        "savePassword": true,
+        "profileName": "Azure Mobile DB"
+    }],
 }

@@ -1,59 +1,66 @@
 {
-    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-    "project": {
-        "name": "personal"
-    },
-    "apps": [{
-        "root": "src",
-        "outDir": "docs",
-        "assets": [
-            "assets",
-            "favicon.ico"
-        ],
-
-        "deployUrl": "https://rthiney.github.io/personal/",
-        "index": "index.html",
-        "main": "main.ts",
-        "polyfills": "polyfills.ts",
-        "test": "test.ts",
-        "tsconfig": "tsconfig.app.json",
-        "testTsconfig": "tsconfig.spec.json",
-        "prefix": "app",
-        "styles": [
-            "assets/sass/material-kit.scss",
-            "../node_modules/ngx-toastr/toastr.css"
-        ],
-        "scripts": [
-
-        ],
-        "environmentSource": "environments/environment.ts",
-        "environments": {
-            "dev": "environments/environment.ts",
-            "prod": "environments/environment.prod.ts"
-        }
-    }],
-    "e2e": {
-        "protractor": {
-            "config": "./protractor.conf.js"
-        }
-    },
-    "lint": [{
-            "project": "src/tsconfig.app.json"
-        },
-        {
-            "project": "src/tsconfig.spec.json"
-        },
-        {
-            "project": "e2e/tsconfig.e2e.json"
-        }
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "apps": [{
+    "root": "src",
+    "outDir": "docs",
+    "assets": [
+      "assets",
+      "favicon.ico"
     ],
-    "test": {
-        "karma": {
-            "config": "./karma.conf.js"
-        }
-    },
-    "defaults": {
-        "styleExt": "scss",
-        "component": {}
+    "deployUrl": "",
+    "index": "index.html",
+    "main": "main.ts",
+    "polyfills": "polyfills.ts",
+    "test": "test.ts",
+    "tsconfig": "tsconfig.app.json",
+    "testTsconfig": "tsconfig.spec.json",
+    "prefix": "app",
+    "styles": [
+          "assets/css/bootstrap.min.css",
+      "assets/sass/material-kit.scss", 
+         "assets/css/demowizard.css",
+           "assets/css/demo.css",
+           "assets/css/toastr.css"
+    ],
+    "scripts": [
+      "assets/js/jquery.min.js",
+      "assets/js/bootstrap.min.js",
+      "assets/js/material.min.js",
+      "assets/js/nouislider.min.js",
+      "assets/js/bootstrap-datepicker.js",
+      "assets/js/jquery.bootstrap.js",
+      "assets/js/jquery.validate.min.js",
+      "assets/js/material-bootstrap-wizard.js",
+        "assets/js/material-kit.js"
+    ],
+    "environmentSource": "environments/environment.ts",
+    "environments": {
+      "dev": "environments/environment.ts",
+      "prod": "environments/environment.prod.ts"
     }
+  }],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [{
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "scss",
+    "component": {}
+  }
 }

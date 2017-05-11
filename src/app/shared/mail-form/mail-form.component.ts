@@ -1,10 +1,6 @@
 import { AppComponent } from './../../app.component';
 import { environment } from './../../../environments/environment';
-
-
 import { ToastrService } from 'ngx-toastr';
-
-
 import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 import { AppInsightsService } from '@markpieszak/ng-application-insights';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
@@ -18,7 +14,8 @@ import * as $ from 'jquery';
   templateUrl: './mail-form.component.html',
   styleUrls: ['./mail-form.component.css']
 })
-export class MailFormComponent implements OnInit {
+export class MailFormComponent implements OnInit  {
+
 
   msgForm: FormGroup;
   message: Message;
@@ -28,18 +25,27 @@ export class MailFormComponent implements OnInit {
 
   }
   createForm() {
-
-    this.msgForm = this.fb.group({
-      name: ['', Validators.required],
-      email: ['', [Validators.required, Validators.email]],
-      msg: ['', [Validators.required, Validators.minLength(10)]]
+ this.msgForm = this.fb.group({
+      name: ['' ],
+          last: ['' ],
+          phone: ['' ],
+      email: ['', ],
+      msg: ['', ]
     });
+    // this.msgForm = this.fb.group({
+    //   name: ['', Validators.required],
+    //       last: ['', Validators.required],
+    //       phone: ['', Validators.required],
+    //   email: ['', [Validators.required, Validators.email]],
+    //   msg: ['', [Validators.required, Validators.minLength(10)]]
+    // });
 
 
   }
   ngOnInit() {
-    $('#bid').removeClass();
-    $('#bid').addClass('profile-page');
+
+
+
   }
 
 
@@ -85,8 +91,7 @@ export class MailFormComponent implements OnInit {
     if (err) {
       this.toastrService.error(res.body, 'Error' + res.statusCode);
       this.appInsightsService.trackEvent('Mail Fail');
-    }
-    else {
+    }     else     {
       this.appInsightsService.trackEvent('Mail Sent');
       this.toastrService.success('Your message was sent!!', 'Email Away!');
       this.msgForm.reset();

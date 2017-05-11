@@ -8,7 +8,7 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
         		</button>
-            <a href="http://raphael.myds.me">
+            <!--<a href="http://raphael.myds.me">
                 <div class="logo-container">
                     <div class="logo">
                         <img src="assets/img/RaphPhotoFaceSmall.jpg" class="img-circle  img-responsive img-raised" alt="    Raphaël  Thiney " rel="tooltip" title="<b>Site</b> was Designed & Coded by <b>    Raphaël  Thiney </b>" data-placement="bottom" data-html="true">
@@ -18,7 +18,22 @@
 
                     </div>
                 </div>
+            </a>-->
+
+            <a href="http://rthiney.github.io">
+                <div class="logo-container">
+                    <div class="logo">
+                        <img src="assets/img/RaphPhotoFaceSmall.jpg">
+                    </div>
+                    <div class="brand">
+                        Raphaël Thiney
+                    </div>
+                </div>
             </a>
+
+
+
+
         </div>
 
         <div class="collapse navbar-collapse" id="navigation-example">
@@ -36,7 +51,9 @@
                 <li>
                     <a [routerLink]="['/projects']">Projects</a>
                 </li>
-
+                <li>
+                    <a [routerLink]="['/contact']">Contact</a>
+                </li>
                 <li>
                     <a href="https://twitter.com/RaphaelThiney" target="_blank" class="btn btn-simple btn-white btn-just-icon">
                         <i class="fa fa-twitter"></i>
@@ -80,40 +97,40 @@
 
     <div class="main main-raised">
         <div class="container">
-             <div class="section text-center section-landing">
-               
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="info">
-                                <div class="icon icon-primary">
-                                    <i class="fa fa-bolt" aria-hidden="true"></i>
-                                </div>
-                                <h4 class="info-title">Speed Development</h4>
-                                <p>Often, stakeholders need to have something in their hands before their ideas start to flow. I try to quickly create a Proof Of Concept, and gather that input early on. That feedback lets me quickly respond to user feedback,
-                                    rather than wait until delivery; better than any whiteboard or PowerPoint!</p>
+            <div class="section text-center section-landing">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-primary">
+                                <i class="fa fa-bolt" aria-hidden="true"></i>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="info">
-                                <div class="icon icon-success">
-                                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                                </div>
-                                <h4 class="info-title">Master Integrator</h4>
-                                <p>Thoughout my carreer I have been integrating disparate systems. From legacy to new and disconnected. While this practice is becoming easier with new tools like micro-services, webjobs and workflow systems, I bring the experience
-                                    and business acumen to bring everyone together and execute.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="info">
-                                <div class="icon icon-danger">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
-                                </div>
-                                <h4 class="info-title">Easy to Work With</h4>
-                                <p>I'm easy to get along with. I'm a people person with a cunning business sense. I have started 3 companies, and help several others start their own along the way. I speak tech, finance, healthcare. Also French and Spanish!!</p>
-                            </div>
+                            <h4 class="info-title">Speed Development</h4>
+                            <p>Often, stakeholders need to have something in their hands before their ideas start to flow. I try to quickly create a Proof Of Concept, and gather that input early on. That feedback lets me quickly respond to user feedback,
+                                rather than wait until delivery; better than any whiteboard or PowerPoint!</p>
                         </div>
                     </div>
-            
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-success">
+                                <i class="fa fa-cubes" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="info-title">Master Integrator</h4>
+                            <p>Thoughout my carreer I have been integrating disparate systems. From legacy to new and disconnected. While this practice is becoming easier with new tools like micro-services, webjobs and workflow systems, I bring the experience
+                                and business acumen to bring everyone together and execute.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-danger">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <h4 class="info-title">Easy to Work With</h4>
+                            <p>I'm easy to get along with. I'm a people person with a cunning business sense. I have started 3 companies, and help several others start their own along the way. I speak tech, finance, healthcare. Also French and Spanish!!</p>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="row">
                     <div class="col-md-12">
@@ -136,8 +153,6 @@
                 </div>
             </div>
 
-
-            <app-mail-form></app-mail-form>
         </div>
 
     </div>

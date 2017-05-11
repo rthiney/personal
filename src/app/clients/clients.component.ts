@@ -33,5 +33,6 @@ console.log('cos3', this.cos3);
     console.log('Adjusted Classes');
         $('#bid').removeClass();
     $('#bid').addClass('profile-page');
+      $.getScript('/assets/js/scripts.js');
   }
 }
