@@ -7,7 +7,7 @@
       "assets",
       "favicon.ico"
     ],
-    "deployUrl": "",
+    "deployUrl": "https://rthiney.github.io/personal",
     "index": "index.html",
     "main": "main.ts",
     "polyfills": "polyfills.ts",
@@ -17,7 +17,7 @@
     "prefix": "app",
     "styles": [
           "assets/css/bootstrap.min.css",
-      "assets/sass/material-kit.scss", 
+      "assets/sass/material-kit.scss",
          "assets/css/demowizard.css",
            "assets/css/demo.css",
            "assets/css/toastr.css"

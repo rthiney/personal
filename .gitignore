@@ -1,10 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-
+docs
 /tmp
 /out-tsc
-environments
+/environments
 # dependencies
 /node_modules
 # IDEs and editors

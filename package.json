@@ -23,10 +23,11 @@
     "start": "ng serve",
     "start-prod": "ng serve -prod",
     "build": "ng build",
-    "build-prod": "ng build --prod --env=prod",
+    "build-prod": "ng build --prod --env=prod ",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+   "build-deploy": "ng build -prod --base-href https://rthiney.github.io/personal/",
     "deploy": "angular-cli-ghpages --dir docs"
   },
   "private": true,
