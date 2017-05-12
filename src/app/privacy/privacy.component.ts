@@ -1,7 +1,7 @@
+
+import { environment } from '../../environments/environment';
 import * as $ from 'jquery';
-
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { AppInsightsService } from '@markpieszak/ng-application-insights';
 
 @Component({
@@ -9,14 +9,19 @@ import { AppInsightsService } from '@markpieszak/ng-application-insights';
   templateUrl: './privacy.component.html',
   styleUrls: ['./privacy.component.css']
 })
-export class PrivacyComponent implements OnInit {
+export class PrivacyComponent implements AfterViewInit {
 
-  constructor(private appInsightsService: AppInsightsService) { }
 
-  ngOnInit() {
+  env: string;
+  constructor(private appInsightsService: AppInsightsService) {
+    this.env = environment.envName;
+  }
+  ngAfterViewInit(): void {
 
-    $('#bid').removeClass();
+    console.log('Adjusted Classes');
+     $('#bid').removeClass();
     $('#bid').addClass('profile-page');
+      $.getScript('/assets/js/scripts.js');
   }
 
 }
